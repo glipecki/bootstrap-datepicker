@@ -1013,12 +1013,8 @@
 		},
 
 		_toggle_multidate: function(date){
-			var ix = this.dates.contains(date);
 			if (!date){
 				this.dates.clear();
-			}
-			else if (ix !== -1){
-				this.dates.remove(ix);
 			}
 			else {
 				this.dates.push(date);
